@@ -28,6 +28,10 @@
   }
   .factCardWrap {
     grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+  }
+  .sponsorLogoes {
+    grid-template-columns: repeat(3, 180px);
   }
 }
 
@@ -91,5 +95,15 @@
   }
   .sectionTextWrap {
     width: 100%;
+  }
+  .sponsorLogoes {
+    grid-template-columns: repeat(2, 180px);
+  }
+}
+/* small device  */
+@media screen and (max-width: 425px) {
+  .sponsorLogoes {
+    grid-template-columns: repeat(1, 180px);
+    justify-content: center;
   }
 }

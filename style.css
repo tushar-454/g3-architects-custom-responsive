@@ -263,3 +263,29 @@ p.sectionTextSubTitle {
   font-weight: 600;
 }
 /* some fact css style end */
+
+/* sponsor css style start  */
+.center {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.sponsorLogoes {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(5, 180px);
+  justify-content: space-between;
+  margin-bottom: 8.125rem;
+}
+
+.sponsorLogoes img:hover {
+  filter: grayscale(0);
+}
+
+.sponsorLogoes img {
+  filter: grayscale(1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* sponsor css style end */

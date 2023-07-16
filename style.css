@@ -289,3 +289,20 @@ p.sectionTextSubTitle {
   cursor: pointer;
 }
 /* sponsor css style end */
+
+/* footer css style start  */
+footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  padding: 2.6rem 0rem;
+}
+.footerWrap {
+  width: 100%;
+}
+.footerWrap p {
+  color: #424242;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+/* footer css style end */

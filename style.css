@@ -116,7 +116,9 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.4rem;
 }
-
+.featuresImgWrap img {
+  width: 100%;
+}
 .featureText h1 {
   color: #131313;
   font-size: 2.9rem;
@@ -162,6 +164,8 @@
 }
 .featuresExploreImgWrap {
   width: 44.375rem;
+}
+.stickyDiv {
   position: relative;
 }
 .featuresExploreImgWrap img {
@@ -205,7 +209,7 @@
   position: absolute;
   background: #ff900e;
   width: 5px;
-  height: 106px;
+  height: 100%;
   left: 0px;
 }
 /* features explore css style end */

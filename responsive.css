@@ -22,6 +22,10 @@
   .menu ul {
     gap: 2rem;
   }
+  .featuresExploreWrap {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* medium device  */
@@ -48,6 +52,14 @@
   .featuresWrap {
     align-items: start;
   }
+  .featuresExploreImgWrap,
+  .featuresExploreText {
+    width: 100%;
+  }
+
+  .tag {
+    left: 0;
+  }
 }
 
 /* small device  */
@@ -64,5 +76,11 @@
   }
   .featureText {
     width: 100%;
+  }
+  .featuresExploreTitle {
+    width: 100%;
+  }
+  .tag span {
+    font-size: 3rem;
   }
 }

@@ -130,3 +130,82 @@
   margin: 2rem 0rem 3rem;
 }
 /* features css style end */
+
+/* features explore css style start  */
+.featuresExploreWrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 3rem 0rem;
+}
+
+.featuresExploreTitle h1 {
+  color: #131313;
+  font-size: 2.9rem;
+  font-weight: 700;
+  padding-left: 1rem;
+}
+
+.featuresExploreSubtitle p {
+  color: #727272;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.featuresExploreTitle {
+  width: 29.25rem;
+  position: relative;
+}
+
+.featuresExploreSubtitle {
+  margin: 2rem 0rem;
+}
+.featuresExploreImgWrap {
+  width: 44.375rem;
+  position: relative;
+}
+.featuresExploreImgWrap img {
+  width: 100%;
+}
+.featuresExploreText {
+  width: 36.625rem;
+}
+.singleExplore {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.singleExplore h4 {
+  color: #131313;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+
+.singleExplore p {
+  color: #727272;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.tag {
+  display: inline-block;
+  position: absolute;
+  bottom: -20px;
+  left: -40px;
+}
+
+.tag span {
+  font-size: 4rem;
+}
+.featuresExploreTitle:before {
+  content: '';
+  position: absolute;
+  background: #ff900e;
+  width: 5px;
+  height: 106px;
+  left: 0px;
+}
+/* features explore css style end */

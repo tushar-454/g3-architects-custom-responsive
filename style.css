@@ -21,10 +21,14 @@
   border-radius: 0.5rem;
   background: #ff900e;
   padding: 1.4rem 1.6rem;
+  text-decoration: none;
 }
 /* common css style end */
 
 /* header css style start  */
+.menuBar img {
+  width: 10%;
+}
 .header {
   background: rgba(255, 144, 14, 0.1);
 }

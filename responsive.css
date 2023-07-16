@@ -1,3 +1,56 @@
 .menuBar {
   display: none;
 }
+
+/* extra large device  */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/*  large device  */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 85%;
+  }
+  .bannerTitle,
+  .bannerSubTitle,
+  .bannerBtn {
+    width: 100%;
+  }
+  .menu ul {
+    gap: 2rem;
+  }
+}
+
+/* medium device  */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .menuBar {
+    display: initial;
+  }
+  .bannerTitle h1 {
+    font-size: 3rem;
+  }
+  .headerWrap {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .bannerWrap {
+    padding-bottom: 2rem;
+  }
+}
+
+/* small device  */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+  .bannerTitle h1 {
+    font-size: 2rem;
+  }
+}

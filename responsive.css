@@ -42,6 +42,12 @@
   .bannerWrap {
     padding-bottom: 2rem;
   }
+  .featureText h1 {
+    font-size: 1.9rem;
+  }
+  .featuresWrap {
+    align-items: start;
+  }
 }
 
 /* small device  */
@@ -52,5 +58,11 @@
   }
   .bannerTitle h1 {
     font-size: 2rem;
+  }
+  .featuresWrap {
+    flex-direction: column;
+  }
+  .featureText {
+    width: 100%;
   }
 }

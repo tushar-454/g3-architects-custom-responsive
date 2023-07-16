@@ -23,6 +23,22 @@
   padding: 1.4rem 1.6rem;
   text-decoration: none;
 }
+h1.sectionTextTitle {
+  color: #131313;
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+p.sectionTextSubTitle {
+  color: #727272;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.sectionTextWrap {
+  width: 33.875rem;
+}
 /* common css style end */
 
 /* header css style start  */
@@ -213,3 +229,37 @@
   left: 0px;
 }
 /* features explore css style end */
+
+/* some fact css style start  */
+
+.factWrap {
+  padding: 3rem 0rem;
+}
+.factCardWrap {
+  padding: 9.125rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 2rem;
+  justify-content: space-around;
+}
+
+.card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 3.8rem 2.1rem;
+  text-align: center;
+}
+
+.card h2 {
+  color: #424242;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 0.2rem 0rem;
+}
+
+.card h3 {
+  color: #727272;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/* some fact css style end */

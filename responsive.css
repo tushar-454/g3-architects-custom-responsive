@@ -26,6 +26,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .factCardWrap {
+    grid-template-columns: repeat(2, 250px);
+  }
 }
 
 /* medium device  */
@@ -82,5 +85,11 @@
   }
   .tag span {
     font-size: 3rem;
+  }
+  .factCardWrap {
+    grid-template-columns: repeat(1, 250px);
+  }
+  .sectionTextWrap {
+    width: 100%;
   }
 }
